@@ -1,11 +1,13 @@
 {
-    "name": "moisture sensor with a sensor",
+    "name": "moisture sensor with a DHT11 sensor",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "microbit-dstemp": "github:bsiever/microbit-dstemp#v0.1.26"
+        "microbit-dstemp": "github:bsiever/microbit-dstemp#v0.1.26",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "datalogger": "*"
     },
     "files": [
         "main.blocks",
@@ -16,7 +18,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.18",
+        "target": "5.0.6",
         "targetId": "microbit"
     },
     "supportedTargets": [
